@@ -6,3 +6,6 @@ this can	often	aid	the	reader to	decide whether or not the	reference is indeed	w
 they want or need.
 
 The modules used are sys, regex and fileinput.
+
+I have designed the simillar program in C as well. It is impleted using linked-list and
+dynamic memory allocation, and further has no mermory leaks as of now.
