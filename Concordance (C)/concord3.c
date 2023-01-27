@@ -34,7 +34,7 @@ node_t* read_file(){
 		
 	fgets(each_line,6,stdin);	
 	if(strncmp(strtok(each_line,"\n"),"1",2)==0){
-		printf("Input is version 1, concord3 expected version 2");
+		printf("Input is version 1, concord expects version 2");
 		exit(1);
 	}
 	
