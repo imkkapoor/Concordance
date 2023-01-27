@@ -60,7 +60,7 @@ class concord:
 		count=0
 		for line in file_in_use:
 			if count==0 and line.strip()=="1":
-				print("Input is version 1, concord4.py expected version 2")
+				print("Input is version 1, concord expects version 2")
 				sys.exit()
 		
 			line = line.strip()
